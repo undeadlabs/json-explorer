@@ -50,11 +50,11 @@
 }
 
 .json-explorer li.parent > ul {
-	display: none;
+	display: block;
 	cursor: auto;
 }
 .json-explorer li.parent.expanded > ul {
-	display: block;
+	display: none;
 }
 
 /* theming */
