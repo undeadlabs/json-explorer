@@ -1,8 +1,8 @@
 document.getElementById('apply').addEventListener('click', function() {
-	init(JSON.parse(document.getElementById('jsonInput').value), document.getElementById('jsonOutput'))
+	json_explorer(JSON.parse(document.getElementById('jsonInput').value), document.getElementById('jsonOutput'))
 })
 
-function init(obj, el) {
+function json_explorer(obj, el) {
 	el.innerHTML = '';
 	el.className = "json-explorer"
 
